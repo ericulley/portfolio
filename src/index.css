@@ -1,13 +1,216 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-image:
+        linear-gradient(black, black),
+        url("EC_1406-5023.jpg");
+    background-blend-mode: saturation;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-weight: 500;
+    line-height: 150%;
+}
+
+/* Navigation */
+#nav {
+    justify-content: center;
+}
+
+.nav-item {
+    display: flex;
+}
+
+span {
+    display: inline-block;
+}
+
+#about span:before {
+    content:  "Hi";
+}
+
+#about:hover span:before {
+    display: none;
+}
+
+#about:hover span:after {
+    content: "About";
+    color: crimson;
+    margin-left: 20px;
+}
+
+#work span:before {
+    content:  "I'm";
+}
+
+#work:hover span:before {
+    display: none;
+}
+
+#work:hover span:after {
+    content: "Work";
+    color: crimson;
+    margin-left: 20px;
+}
+
+#contact span:before {
+    content:  "Eric";
+}
+
+#contact:hover span:before {
+    display: none;
+}
+
+#contact:hover span:after {
+    content: "Contact";
+    color: crimson;
+    margin-left: 20px;
+}
+
+/* Text Input & Display */
+#input-carrot:hover {
+    cursor: default;
+}
+
+input {
+    border: none;
+    background: transparent;
+    color: transparent;
+    caret-color: transparent;
+    height: 6em;
+    width: 10px;
+    align-self: flex-start;
+}
+
+input:focus {
+    outline: none;
+}
+
+#display {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    max-height: 30vh;
+    max-width: 94%;
+    word-wrap: break-word;
+    /* overflow-x: scroll; */
+}
+
+#cursor {
+    animation: cursor-pulse 1.3s infinite;
+    animation-timing-function: steps(1);
+    height: 8px;
+    width: 39px;
+    align-self: flex-end;
+    margin-bottom: 12px;
+}
+
+#spacer {
+    display: inline-block;
+    height: 6em;
+    width: 39px;
+}
+
+/* Back Button */
+.back {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.back:hover, .back:hover:after {
+    color: crimson;
+    cursor: pointer;
+    content: ".back();";
+}
+
+/* Components */
+.container {
+    height: 100vh;
+    width: 50%;
+    min-width: 305px;
+    overflow: hidden;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header {
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+/* About Component */
+
+
+/* Work Component */
+.projects {
+    margin: 1.5em 0;
+}
+
+h3:hover, .contact-link:hover {
+    color: crimson;
+}
+
+/* Contact Component */
+#link-container {
+    height: 20vh;
+    width: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-link {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+#email-link:before {
+    content:  "Email";
+}
+
+#email-link:hover:before {
+    display: none;
+}
+
+#email-link:hover:after {
+    content: "Copy to Clipboard";
+    color: crimson;
+    cursor: pointer;
+}
+
+/* Animations */
+@keyframes cursor-pulse {
+    50% {
+        background-color: black;
+    }
 }
