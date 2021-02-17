@@ -185,7 +185,7 @@ h3:hover, .contact-link:hover {
     width: ;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .contact-link {
