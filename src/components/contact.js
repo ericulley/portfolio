@@ -14,9 +14,9 @@ class Contact extends React.Component {
                 <h1 className="header">>Contact</h1>
                 <div id="link-container">
                     <p className="contact-link" id="email-link"></p>
-                    <a className="contact-link" href="https://docs.google.com/document/d/156X1ti7PVaJKxj6ANWmf1DH2HSpAUDOmPq10SkbZsXM/edit?usp=sharing" rel="external" target="_blank">Resume</a>
-                    <a className="contact-link" href="https://github.com/ericulley" rel="external" target="_blank">GitHub</a>
-                    <a className="contact-link" href="https://www.linkedin.com/in/ericculley" rel="external" target="_blank">LinkedIn</a>
+                    <a className="contact-link" href="https://docs.google.com/document/d/156X1ti7PVaJKxj6ANWmf1DH2HSpAUDOmPq10SkbZsXM/edit?usp=sharing" rel="noreferrer" target="_blank">Resume</a>
+                    <a className="contact-link" href="https://github.com/ericulley" rel="noreferrer" target="_blank">GitHub</a>
+                    <a className="contact-link" href="https://www.linkedin.com/in/ericculley" rel="noreferrer" target="_blank">LinkedIn</a>
                 </div>
             </div>
         )
