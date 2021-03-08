@@ -38,7 +38,7 @@ h3 {
     font-size: .5em;
 }
 
-p {
+p, li {
     font-weight: 500;
     line-height: 150%;
 }
@@ -172,15 +172,37 @@ input:focus {
 }
 
 /* About Component */
+ul {
+    list-style: none;
+    padding-left: .5em;
+}
 
+#skills {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    width: 12%;
+    min-width: 90px;
+}
 
 /* Work Component */
 .projects {
-    margin: 1.5em 0;
+    margin: 0 0 1.5em 0;
 }
 
-h3:hover, .contact-link:hover {
+.work-link:hover, .contact-link:hover {
     color: crimson;
+}
+
+.github-link {
+    font-size: .9em;
+    font-weight: 800;
+}
+
+.github-img {
+    height: 1.2rem;
+    margin-left: -.2em;
+    margin-bottom: -.3em;
 }
 
 /* Contact Component */

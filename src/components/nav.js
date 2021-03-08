@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import axios from 'axios'
 
 class Nav extends React.Component {
     state = {
@@ -9,6 +10,15 @@ class Nav extends React.Component {
         this.setState({
             [event.target.id]: event.target.value
         })
+    }
+    componentDidMount = () => {
+        try {
+            axios.get('https://coin-purse.herokuapp.com/')
+            axios.get('https://imoutdoorsy.herokuapp.com/')
+            axios.get('https://kim-eric-trips.herokuapp.com/')
+        } catch (err) {
+            console.log(err)
+        }
     }
     render = () => {
         return (
