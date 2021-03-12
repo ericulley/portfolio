@@ -9,6 +9,9 @@ import Work from "./components/work.js"
 import Contact from "./components/contact.js"
 
 class App extends React.Component {
+    state = {
+        
+    }
     render = () => {
         return (
             <Router basename={process.env.PUBLIC_URL}>

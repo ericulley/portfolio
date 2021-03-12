@@ -22,29 +22,31 @@ a {
 
 h1 {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 4em;
+    font-size: 7vh;
 }
 
 h2 {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.5em;
+    font-size: 2.5vh;
 }
 
 h3 {
-    font-size: 2em;
-}
-
-#under-construction {
-    font-size: .5em;
+    font-size: 3vh;
 }
 
 p, li {
+    font-size: 1.8vh;
     font-weight: 500;
     line-height: 150%;
 }
 
+em {
+    font-size: 1.8vh;
+}
+
 /* Navigation */
 #nav {
+    animation: 1.5s ease 1 nav-load;
     justify-content: center;
 }
 
@@ -67,7 +69,7 @@ span {
 #about:hover span:after {
     content: "About";
     color: crimson;
-    margin-left: 20px;
+    margin-left: .3em;
 }
 
 #work span:before {
@@ -108,7 +110,7 @@ input {
     background: transparent;
     color: transparent;
     caret-color: transparent;
-    height: 6em;
+    height: 7vh;
     width: 10px;
     align-self: flex-start;
 }
@@ -129,20 +131,21 @@ input:focus {
 #cursor {
     animation: cursor-pulse 1.3s infinite;
     animation-timing-function: steps(1);
-    height: 8px;
-    width: 39px;
+    height: .8vh;
+    width: .6em;
     align-self: flex-end;
     margin-bottom: 12px;
 }
 
 #spacer {
     display: inline-block;
-    height: 6em;
+    height: 10vh;
     width: 39px;
 }
 
 /* Back Button */
 .back {
+    animation: 2s ease-in 1 content;
     position: absolute;
     top: 5%;
     left: 5%;
@@ -158,26 +161,50 @@ input:focus {
 .container {
     height: 100vh;
     width: 50%;
-    min-width: 305px;
-    overflow: hidden;
+    min-width: 350px;
+    overflow: scroll;
     margin-left: 25%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
+.container::-webkit-scrollbar {
+    height: 0px;
+    width: .3em;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 1em;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background-color: grey;
+}
+
 .header {
-    margin-top: 20%;
+    margin-top: 12vh;
     margin-bottom: 5%;
 }
 
 /* About Component */
+#about-header {
+    animation: 2s ease 1 about;
+}
+
+.about-p {
+    font-size: 2vh;
+    animation: 2s ease-in 1 content;
+}
+
 ul {
     list-style: none;
     padding-left: .5em;
 }
 
 #skills {
+    animation: 2s ease-in 1 content;
     position: absolute;
     top: 5%;
     right: 4%;
@@ -186,8 +213,16 @@ ul {
 }
 
 /* Work Component */
+#work-header {
+    animation: 2s ease 1 work;
+}
+
+#project-container {
+    animation: 2s ease-in 1 content;
+}
+
 .projects {
-    margin: 0 0 1.5em 0;
+    margin: 0 0 2.75vh 0;
 }
 
 .work-link:hover, .contact-link:hover {
@@ -195,18 +230,23 @@ ul {
 }
 
 .github-link {
-    font-size: .9em;
+    font-size: 2vh;
     font-weight: 800;
 }
 
 .github-img {
-    height: 1.2rem;
+    height: 2.7vh;
     margin-left: -.2em;
     margin-bottom: -.3em;
 }
 
 /* Contact Component */
+#contact-header {
+    animation: 2s ease 1 contact;
+}
+
 #link-container {
+    animation: 2s ease-in 1 content;
     height: 20vh;
     width: ;
     display: flex;
@@ -215,9 +255,9 @@ ul {
 }
 
 .contact-link {
-    font-size: 1.5em;
+    font-size: 3vh;
     font-weight: 500;
-    margin: 1em 0;
+    margin: 3vh 0;
 }
 
 #email-link:before {
@@ -235,8 +275,74 @@ ul {
 }
 
 /* Animations */
+@keyframes nav-load {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes cursor-pulse {
     50% {
         background-color: black;
+    }
+}
+
+@keyframes about {
+    0% {
+        color: crimson;
+        transform: translate(.3em, 15vh);
+    }
+    30% {
+        color: crimson;
+        transform: translate(0em, 15vh);
+    }
+    100% {
+        color: black;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes work {
+    0% {
+        color: crimson;
+        transform: translate(.4em, 24vh);
+    }
+    30% {
+        color: crimson;
+        transform: translate(0em, 24vh);
+    }
+    100% {
+        color: black;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes contact {
+    0% {
+        color: crimson;
+        transform: translate(.4em, 33vh);
+    }
+    30% {
+        color: crimson;
+        transform: translate(0em, 33vh);
+    }
+    100% {
+        color: black;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes content {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }

@@ -6,7 +6,7 @@ class Work extends React.Component {
         return (
             <div className="container" id="work-container">
                 <Link to='/'><h2 className="back">Eric</h2></Link>
-                <h1 className="header">>Work</h1>
+                <h1 className="header">><span id="work-header">Work</span></h1>
                 <div id="project-container">
                     <div className="projects">
                         <h3><a className="work-link" href="https://coin-purse.herokuapp.com/" target="_blank">Coin Purse</a></h3>
