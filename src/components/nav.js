@@ -14,6 +14,7 @@ class Nav extends React.Component {
     componentDidMount = () => {
         try {
             axios.get('https://coin-purse.herokuapp.com/')
+            axios.get('https://mysterious-atoll-88793.herokuapp.com/')
             axios.get('https://imoutdoorsy.herokuapp.com/')
             axios.get('https://kim-eric-trips.herokuapp.com/')
         } catch (err) {
