@@ -13,7 +13,7 @@ class About extends React.Component {
                 <br/>
                 <p className="about-p">My academic background is in philosophy and political science which led me into a career of alternative education where I left my mark on the next generation teaching leadership, teamwork, and other transferable skills. I also spent that time in management roles and growing a small subsidiary of a top tier ski resort into a major contender in it’s local market. So not only do I bring technical engineering skills to the table, but I’ve also got over five years experience working in teams and in roles of leadership.</p>
                 <br/>
-                <p className="about-p">As a software engineer, I've decided to turn a long time passion and hobby into a career path. I’ve built numerous full stack applications that are centered around a simple, intuitive user experience and clearly organized code. I’m fluent in all the major frontend technologies and have experience building with frameworks like React and Vue and data visualization libraries like Chart.js. On the backend, I’ve built projects in a number of different languages including Node, Ruby, and Java.</p>
+                <p className="last about-p">As a software engineer, I've decided to turn a long time passion and hobby into a career path. I’ve built numerous full stack applications that are centered around a simple, intuitive user experience and clearly organized code. I’m fluent in all the major frontend technologies and have experience building with frameworks like React and Vue and data visualization libraries like Chart.js. On the backend, I’ve built projects in a number of different languages including Node, Ruby, and Java.</p>
             </div>
         )
     }

@@ -352,4 +352,8 @@ ul {
     .about-p {
         font-size: .9em;
     }
+
+    .last {
+        margin-bottom: 6em;
+    }
 }
