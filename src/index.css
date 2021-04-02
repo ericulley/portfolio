@@ -357,3 +357,26 @@ ul {
         margin-bottom: 6em;
     }
 }
+
+@media (max-width: 625px) {
+    #skills {
+        display: none;
+    }
+
+    .back {
+        position: sticky;
+        margin-top: 10%;
+        margin-bottom: -10%;
+    }
+
+    .container {
+        width: 80%;
+        min-width: 0px;
+        margin-left: 10%;
+    }
+
+    .container::-webkit-scrollbar {
+        height: 0px;
+        width: 0px;
+    }
+}
