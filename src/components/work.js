@@ -11,7 +11,7 @@ class Work extends React.Component {
                     <div className="projects">
                         <h3><a className="work-link" href="https://coin-purse.herokuapp.com/" target="_blank">Coin Purse</a></h3>
                         <em>Technologies: JS/React, Java/Spring, Chart.js</em>
-                        <p>A cyptocurrency portfolio app</p>
+                        <p>A cryptocurrency portfolio app</p>
                         <a className="github-link" href="https://github.com/ericulley/coin_purse" target="_blank">FrontEnd <img className="github-img" src={process.env.PUBLIC_URL + '/GitHub.png'} alt="github-logo"/></a> / <a className="github-link" href="https://github.com/ericulley/project5" target="_blank">BackEnd <img className="github-img" src={process.env.PUBLIC_URL + '/GitHub.png'} alt="github-logo"/></a>
                     </div>
                     <div className="projects">
