@@ -248,7 +248,7 @@ ul {
 #link-container {
     animation: 2s ease-in 1 content;
     height: 20vh;
-    width: ;
+    /* width: ; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
