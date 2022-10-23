@@ -6,17 +6,17 @@ class Skills extends React.Component {
             <>
                 <h2>Skills</h2>
                 <ul>
-                    <li>-HTML</li>
-                    <li>-CSS</li>
+                    <li>-HTML/CSS</li>
                     <li>-Javascript</li>
+                    <li>-Typescript</li>
                     <li>-React</li>
-                    <li>-Vue</li>
                     <li>-Node</li>
                     <li>-Express</li>
                     <li>-Ruby</li>
                     <li>-Rails</li>
                     <li>-Java</li>
                     <li>-Spring</li>
+                    <li>-OAuth/OIDC</li>
                     <li>-et al.</li>
                 </ul>
             </>
