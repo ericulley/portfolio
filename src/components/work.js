@@ -9,7 +9,7 @@ class Work extends React.Component {
                 <h1 className="header">><span id="work-header">Work</span></h1>
                 <div id="project-container">
                     <div className="projects">
-                        <h3><a className="work-link" href="https://coin-purse.herokuapp.com/" target="_blank">Coin Purse</a></h3>
+                        <h3><a className="work-link" href="https://coin-purse.vercel.app/" target="_blank">Coin Purse</a></h3>
                         <em>Technologies: React, Java/Spring, Chart.js</em>
                         <p>A cryptocurrency portfolio app</p>
                         <a className="github-link" href="https://github.com/ericulley/coin_purse" target="_blank">FrontEnd <img className="github-img" src={process.env.PUBLIC_URL + '/GitHub.png'} alt="github-logo"/></a> / <a className="github-link" href="https://github.com/ericulley/project5" target="_blank">BackEnd <img className="github-img" src={process.env.PUBLIC_URL + '/GitHub.png'} alt="github-logo"/></a>
