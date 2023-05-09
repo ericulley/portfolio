@@ -42,7 +42,7 @@ class Work extends React.Component {
           </div>
           <div className="projects">
             <h3>
-              <a className="work-link" href="http://imoutdoorsy.us-west-2.elasticbeanstalk.com//" target="_blank">
+              <a className="work-link" href="http://imoutdoorsy.us-west-2.elasticbeanstalk.com/" target="_blank">
                 I'm Outdoorsy
               </a>
             </h3>
