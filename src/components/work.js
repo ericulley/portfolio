@@ -14,17 +14,17 @@ class Work extends React.Component {
         <div id="project-container">
           <div className="projects">
             <h3>
-              <a className="work-link" href="https://coin-purse.vercel.app/" target="_blank">
-                Coin Purse
+              <a className="work-link" href="https://wca-conditions.vercel.app/" target="_blank">
+                WCA Current Conditions
               </a>
             </h3>
-            <em>Technologies: React, Java/Spring, Chart.js</em>
-            <p>A cryptocurrency portfolio app</p>
-            <a className="github-link" href="https://github.com/ericulley/coin_purse" target="_blank">
+            <em>Technologies: Typescript, Node.js/Express, Zod</em>
+            <p>Dashboard for viewing realtime streamflow data and fishing conditions.</p>
+            <a className="github-link" href="https://github.com/ericulley/wca-conditions" target="_blank">
               FrontEnd <img className="github-img" src={process.env.PUBLIC_URL + "/GitHub.png"} alt="github-logo" />
             </a>{" "}
             /{" "}
-            <a className="github-link" href="https://github.com/ericulley/project5" target="_blank">
+            <a className="github-link" href="https://github.com/ericulley/wca-conditions-api" target="_blank">
               BackEnd <img className="github-img" src={process.env.PUBLIC_URL + "/GitHub.png"} alt="github-logo" />
             </a>
           </div>
@@ -38,6 +38,22 @@ class Work extends React.Component {
             <p>A drap-n-drop SPA for your personal backlog of issues.</p>
             <a href="https://github.com/ericulley/personal-backlog" target="_blank">
               <img className="github-img" src={process.env.PUBLIC_URL + "/GitHub.png"} alt="github-logo" />
+            </a>
+          </div>
+          <div className="projects">
+            <h3>
+              <a className="work-link" href="https://coin-purse.vercel.app/" target="_blank">
+                Coin Purse
+              </a>
+            </h3>
+            <em>Technologies: React, Java/Spring, Chart.js</em>
+            <p>A cryptocurrency portfolio app</p>
+            <a className="github-link" href="https://github.com/ericulley/coin_purse" target="_blank">
+              FrontEnd <img className="github-img" src={process.env.PUBLIC_URL + "/GitHub.png"} alt="github-logo" />
+            </a>{" "}
+            /{" "}
+            <a className="github-link" href="https://github.com/ericulley/project5" target="_blank">
+              BackEnd <img className="github-img" src={process.env.PUBLIC_URL + "/GitHub.png"} alt="github-logo" />
             </a>
           </div>
           <div className="projects">
