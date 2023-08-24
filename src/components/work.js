@@ -15,7 +15,7 @@ class Work extends React.Component {
           <div className="projects">
             <h3>
               <a className="work-link" href="https://wca-conditions.vercel.app/" target="_blank">
-                WCA Current Conditions
+                Current Conditions
               </a>
             </h3>
             <em>Technologies: Typescript, Node.js/Express, Zod</em>
