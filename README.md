@@ -6,9 +6,9 @@ Thanks for visiting
 
 ericulley@gmail.com
 
-To deploy a updated version run the following commands:
+***To deploy, run the following commands:***
 
-- git add . && git commit
-- git push origin master
-- npm run build
-- npm run deploy
+* `git add . && git commit`
+* `git push origin master`
+* `npm run build`
+* `npm run deploy`
