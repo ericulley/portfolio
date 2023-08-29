@@ -1,14 +1,17 @@
-Eric Culley
-Software Engineer
-2022 Portfolio
+## Eric Culley, Software Engineer
 
-Thanks for visiting
+[2023 Portfolio](https://ericulley.github.io/portfolio/) 
 
-ericulley@gmail.com
+Email: ericulley@gmail.com
 
-To deploy a updated version run the following commands:
+LinkedIn: [https://www.linkedin.com/in/ericculley](https://www.linkedin.com/in/ericculley/)
 
-- git add . && git commit
-- git push origin master
-- npm run build
-- npm run deploy
+Thanks for visiting!
+
+
+***To deploy, run the following commands:***
+
+* `git add . && git commit`
+* `git push origin master`
+* `npm run build`
+* `npm run deploy`
