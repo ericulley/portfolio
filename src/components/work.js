@@ -19,7 +19,7 @@ class Work extends React.Component {
               </a>
             </h3>
             <em>Technologies: Typescript, Node.js/Express, Zod</em>
-            <p>Dashboard for viewing realtime streamflow data and fishing conditions.</p>
+            <p>Realtime streamflow dashboard and fishing conditions.</p>
             <a className="github-link" href="https://github.com/ericulley/wca-conditions" target="_blank">
               FrontEnd <img className="github-img" src={process.env.PUBLIC_URL + "/GitHub.png"} alt="github-logo" />
             </a>{" "}
