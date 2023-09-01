@@ -34,7 +34,7 @@ class Work extends React.Component {
                 Personal Backlog
               </a>
             </h3>
-            <em>Technologies: Typescript, Node.js/Express, Vite</em>
+            <em>Technologies: Typescript, Vite</em>
             <p>A drap-n-drop SPA for your personal backlog of issues.</p>
             <a href="https://github.com/ericulley/personal-backlog" target="_blank">
               <img className="github-img" src={process.env.PUBLIC_URL + "/GitHub.png"} alt="github-logo" />
