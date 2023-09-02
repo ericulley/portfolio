@@ -9,7 +9,7 @@ class Work extends React.Component {
           <h2 className="back">Eric</h2>
         </Link>
         <h1 className="header">
-          ><span id="work-header">Work</span>
+          &gt;<span id="work-header">Work</span>
         </h1>
         <div id="project-container">
           <div className="projects">
